@@ -1,0 +1,45 @@
+[
+    {
+        "label": "reduce",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "Calculator",
+        "importPath": "atividade1.main",
+        "description": "atividade1.main",
+        "isExtraImport": true,
+        "detail": "atividade1.main",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "Calculator",
+        "kind": 6,
+        "importPath": "atividade1.main",
+        "description": "atividade1.main",
+        "peekOfCode": "class Calculator:\n    @staticmethod\n    def sum(*numbers):\n        return reduce(lambda x, y: x + y, numbers)\n    @staticmethod\n    def substract(*numbers):\n        return reduce(lambda x, y: x - y, numbers)\n    @staticmethod\n    def multiply(*numbers):\n        return reduce(lambda x, y: x * y, numbers)",
+        "detail": "atividade1.main",
+        "documentation": {}
+    },
+    {
+        "label": "TestCalculator",
+        "kind": 6,
+        "importPath": "tests.test_atividade1",
+        "description": "tests.test_atividade1",
+        "peekOfCode": "class TestCalculator:\n    def test_add(self):\n        assert Calculator.sum(1,2) == 3\n        assert Calculator.sum(2,5,7) == 14\n    def test_substract(self):\n        assert Calculator.substract(5,3) == 2\n        assert Calculator.substract(5,3,2) == 0",
+        "detail": "tests.test_atividade1",
+        "documentation": {}
+    }
+]
