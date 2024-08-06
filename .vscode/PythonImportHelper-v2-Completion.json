@@ -38,7 +38,7 @@
         "kind": 6,
         "importPath": "tests.test_atividade1",
         "description": "tests.test_atividade1",
-        "peekOfCode": "class TestCalculator:\n    def test_add(self):\n        assert Calculator.sum(1,2) == 3\n        assert Calculator.sum(2,5,7) == 14\n    def test_substract(self):\n        assert Calculator.substract(5,3) == 2\n        assert Calculator.substract(5,3,2) == 0",
+        "peekOfCode": "class TestCalculator:\n    def test_add(self):\n        assert Calculator.sum(1,2) == 3\n        assert Calculator.sum(2,5,7) == 14\n    def test_substract(self):\n        assert Calculator.substract(5,3) == 2\n        assert Calculator.substract(5,3,2) == 0\n    def test_multiply(self):\n        assert Calculator.multiply(4,3) == 12\n        assert Calculator.multiply(3,6,2) == 36",
         "detail": "tests.test_atividade1",
         "documentation": {}
     }
